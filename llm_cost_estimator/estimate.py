@@ -19,7 +19,7 @@ MODEL_RATES_PER_WORD = {
 }
 
 
-def estimate_gpt_costs(
+def estimate_costs(
     texts: List[str],
     model: str,
     max_tokens: int,
